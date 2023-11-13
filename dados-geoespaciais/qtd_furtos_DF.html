@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e22dd1615847f99e8355518153505df3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e22dd1615847f99e8355518153505df3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e22dd1615847f99e8355518153505df3 = L.map(
+                "map_e22dd1615847f99e8355518153505df3",
+                {
+                    center: [-15.81232015151515, -47.94603536363636],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3fe025302d20e9d9cf53a7d1cec2e211 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_3fe025302d20e9d9cf53a7d1cec2e211.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_b8aa71a9de4a4af1a29523855c4a81ac_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_b8aa71a9de4a4af1a29523855c4a81ac_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b8aa71a9de4a4af1a29523855c4a81ac = L.geoJson(null, {
+                onEachFeature: geo_json_b8aa71a9de4a4af1a29523855c4a81ac_onEachFeature,
+            
+                style: geo_json_b8aa71a9de4a4af1a29523855c4a81ac_styler,
+        });
+
+        function geo_json_b8aa71a9de4a4af1a29523855c4a81ac_add (data) {
+            geo_json_b8aa71a9de4a4af1a29523855c4a81ac
+                .addData(data);
+        }
+            geo_json_b8aa71a9de4a4af1a29523855c4a81ac_add({"features": [{"geometry": {"coordinates": [-47.882317, -15.793404], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_47893f99c3a0d1448192b3d121117635 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_aa826e1bc700610271e860a314b97752 = $(`<div id="html_aa826e1bc700610271e860a314b97752" style="width: 100.0%; height: 100.0%;">                  Município: RA 01_BRASILIA <br>                  Furtos registrados: 3411                  </div>`)[0];
+                popup_47893f99c3a0d1448192b3d121117635.setContent(html_aa826e1bc700610271e860a314b97752);
+            
+        
+
+        geo_json_b8aa71a9de4a4af1a29523855c4a81ac.bindPopup(popup_47893f99c3a0d1448192b3d121117635)
+        ;
+
+        
+    
+    
+                geo_json_b8aa71a9de4a4af1a29523855c4a81ac.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_722564b9c483f781798cdbce2961b21f_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_722564b9c483f781798cdbce2961b21f_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_722564b9c483f781798cdbce2961b21f = L.geoJson(null, {
+                onEachFeature: geo_json_722564b9c483f781798cdbce2961b21f_onEachFeature,
+            
+                style: geo_json_722564b9c483f781798cdbce2961b21f_styler,
+        });
+
+        function geo_json_722564b9c483f781798cdbce2961b21f_add (data) {
+            geo_json_722564b9c483f781798cdbce2961b21f
+                .addData(data);
+        }
+            geo_json_722564b9c483f781798cdbce2961b21f_add({"features": [{"geometry": {"coordinates": [-48.063056, -16.026111], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_945d193157f8b99d03fe299fe89fcd9b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9366deafdbf5a1614da80546676ba6b9 = $(`<div id="html_9366deafdbf5a1614da80546676ba6b9" style="width: 100.0%; height: 100.0%;">                  Município: RA 02_GAMA <br>                  Furtos registrados: 1341                  </div>`)[0];
+                popup_945d193157f8b99d03fe299fe89fcd9b.setContent(html_9366deafdbf5a1614da80546676ba6b9);
+            
+        
+
+        geo_json_722564b9c483f781798cdbce2961b21f.bindPopup(popup_945d193157f8b99d03fe299fe89fcd9b)
+        ;
+
+        
+    
+    
+                geo_json_722564b9c483f781798cdbce2961b21f.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_bdbbbe23206f2827bc1deb7e6b075ace_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_bdbbbe23206f2827bc1deb7e6b075ace_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_bdbbbe23206f2827bc1deb7e6b075ace = L.geoJson(null, {
+                onEachFeature: geo_json_bdbbbe23206f2827bc1deb7e6b075ace_onEachFeature,
+            
+                style: geo_json_bdbbbe23206f2827bc1deb7e6b075ace_styler,
+        });
+
+        function geo_json_bdbbbe23206f2827bc1deb7e6b075ace_add (data) {
+            geo_json_bdbbbe23206f2827bc1deb7e6b075ace
+                .addData(data);
+        }
+            geo_json_bdbbbe23206f2827bc1deb7e6b075ace_add({"features": [{"geometry": {"coordinates": [-48.056572, -15.833528], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_3a54e5e86b75a7e9d5e77f42ea61f137 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8c1ab6653bc5873e8f509d9ec7816091 = $(`<div id="html_8c1ab6653bc5873e8f509d9ec7816091" style="width: 100.0%; height: 100.0%;">                  Município: RA 03_TAGUATINGA <br>                  Furtos registrados: 3139                  </div>`)[0];
+                popup_3a54e5e86b75a7e9d5e77f42ea61f137.setContent(html_8c1ab6653bc5873e8f509d9ec7816091);
+            
+        
+
+        geo_json_bdbbbe23206f2827bc1deb7e6b075ace.bindPopup(popup_3a54e5e86b75a7e9d5e77f42ea61f137)
+        ;
+
+        
+    
+    
+                geo_json_bdbbbe23206f2827bc1deb7e6b075ace.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_49741e5da3f693dc620c7625d304b839_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_49741e5da3f693dc620c7625d304b839_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_49741e5da3f693dc620c7625d304b839 = L.geoJson(null, {
+                onEachFeature: geo_json_49741e5da3f693dc620c7625d304b839_onEachFeature,
+            
+                style: geo_json_49741e5da3f693dc620c7625d304b839_styler,
+        });
+
+        function geo_json_49741e5da3f693dc620c7625d304b839_add (data) {
+            geo_json_49741e5da3f693dc620c7625d304b839
+                .addData(data);
+        }
+            geo_json_49741e5da3f693dc620c7625d304b839_add({"features": [{"geometry": {"coordinates": [-48.194262, -15.68089], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_0b12bd0032f7e804a21f50f849e15cac = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_28d1826bc74ccf97a72b5328952da267 = $(`<div id="html_28d1826bc74ccf97a72b5328952da267" style="width: 100.0%; height: 100.0%;">                  Município: RA 04_BRAZLANDIA <br>                  Furtos registrados: 229                  </div>`)[0];
+                popup_0b12bd0032f7e804a21f50f849e15cac.setContent(html_28d1826bc74ccf97a72b5328952da267);
+            
+        
+
+        geo_json_49741e5da3f693dc620c7625d304b839.bindPopup(popup_0b12bd0032f7e804a21f50f849e15cac)
+        ;
+
+        
+    
+    
+                geo_json_49741e5da3f693dc620c7625d304b839.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_948367b8532469e9eee095c69f341b1d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_948367b8532469e9eee095c69f341b1d_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_948367b8532469e9eee095c69f341b1d = L.geoJson(null, {
+                onEachFeature: geo_json_948367b8532469e9eee095c69f341b1d_onEachFeature,
+            
+                style: geo_json_948367b8532469e9eee095c69f341b1d_styler,
+        });
+
+        function geo_json_948367b8532469e9eee095c69f341b1d_add (data) {
+            geo_json_948367b8532469e9eee095c69f341b1d
+                .addData(data);
+        }
+            geo_json_948367b8532469e9eee095c69f341b1d_add({"features": [{"geometry": {"coordinates": [-47.784845, -15.650053], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_97dacbd8bb3e06f78b3578d61e17a9d8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b72e89929ab4c11508633710d8a6bd10 = $(`<div id="html_b72e89929ab4c11508633710d8a6bd10" style="width: 100.0%; height: 100.0%;">                  Município: RA 05_SOBRADINHO <br>                  Furtos registrados: 489                  </div>`)[0];
+                popup_97dacbd8bb3e06f78b3578d61e17a9d8.setContent(html_b72e89929ab4c11508633710d8a6bd10);
+            
+        
+
+        geo_json_948367b8532469e9eee095c69f341b1d.bindPopup(popup_97dacbd8bb3e06f78b3578d61e17a9d8)
+        ;
+
+        
+    
+    
+                geo_json_948367b8532469e9eee095c69f341b1d.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_059867dc7ed511e3808d6c16ec168b51_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_059867dc7ed511e3808d6c16ec168b51_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_059867dc7ed511e3808d6c16ec168b51 = L.geoJson(null, {
+                onEachFeature: geo_json_059867dc7ed511e3808d6c16ec168b51_onEachFeature,
+            
+                style: geo_json_059867dc7ed511e3808d6c16ec168b51_styler,
+        });
+
+        function geo_json_059867dc7ed511e3808d6c16ec168b51_add (data) {
+            geo_json_059867dc7ed511e3808d6c16ec168b51
+                .addData(data);
+        }
+            geo_json_059867dc7ed511e3808d6c16ec168b51_add({"features": [{"geometry": {"coordinates": [-47.65557, -15.618195], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_f97ab98cd34c1fbe10a20e92a643bd5b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_367f5569e575bf8b08d091ae2e9fb9d4 = $(`<div id="html_367f5569e575bf8b08d091ae2e9fb9d4" style="width: 100.0%; height: 100.0%;">                  Município: RA 06_PLANALTINA <br>                  Furtos registrados: 788                  </div>`)[0];
+                popup_f97ab98cd34c1fbe10a20e92a643bd5b.setContent(html_367f5569e575bf8b08d091ae2e9fb9d4);
+            
+        
+
+        geo_json_059867dc7ed511e3808d6c16ec168b51.bindPopup(popup_f97ab98cd34c1fbe10a20e92a643bd5b)
+        ;
+
+        
+    
+    
+                geo_json_059867dc7ed511e3808d6c16ec168b51.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_5f8929fd254424edb2446a6ff971769a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_5f8929fd254424edb2446a6ff971769a_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_5f8929fd254424edb2446a6ff971769a = L.geoJson(null, {
+                onEachFeature: geo_json_5f8929fd254424edb2446a6ff971769a_onEachFeature,
+            
+                style: geo_json_5f8929fd254424edb2446a6ff971769a_styler,
+        });
+
+        function geo_json_5f8929fd254424edb2446a6ff971769a_add (data) {
+            geo_json_5f8929fd254424edb2446a6ff971769a
+                .addData(data);
+        }
+            geo_json_5f8929fd254424edb2446a6ff971769a_add({"features": [{"geometry": {"coordinates": [-47.779763, -15.77544], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_207cd31ec987b8c6748301566108ee67 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3da374d674d3ba37af05ae1ba36b288d = $(`<div id="html_3da374d674d3ba37af05ae1ba36b288d" style="width: 100.0%; height: 100.0%;">                  Município: RA 07_PARANOA <br>                  Furtos registrados: 360                  </div>`)[0];
+                popup_207cd31ec987b8c6748301566108ee67.setContent(html_3da374d674d3ba37af05ae1ba36b288d);
+            
+        
+
+        geo_json_5f8929fd254424edb2446a6ff971769a.bindPopup(popup_207cd31ec987b8c6748301566108ee67)
+        ;
+
+        
+    
+    
+                geo_json_5f8929fd254424edb2446a6ff971769a.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_b2a11240b226f57e34fab8d0e00378b4_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_b2a11240b226f57e34fab8d0e00378b4_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b2a11240b226f57e34fab8d0e00378b4 = L.geoJson(null, {
+                onEachFeature: geo_json_b2a11240b226f57e34fab8d0e00378b4_onEachFeature,
+            
+                style: geo_json_b2a11240b226f57e34fab8d0e00378b4_styler,
+        });
+
+        function geo_json_b2a11240b226f57e34fab8d0e00378b4_add (data) {
+            geo_json_b2a11240b226f57e34fab8d0e00378b4
+                .addData(data);
+        }
+            geo_json_b2a11240b226f57e34fab8d0e00378b4_add({"features": [{"geometry": {"coordinates": [-47.967994, -15.871185], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_1e6a3d2d4b55bde3582b277788715234 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d19391a21e7962317eef1765ad830a1b = $(`<div id="html_d19391a21e7962317eef1765ad830a1b" style="width: 100.0%; height: 100.0%;">                  Município: RA 08_NUCLEO BANDEIRANTE <br>                  Furtos registrados: 255                  </div>`)[0];
+                popup_1e6a3d2d4b55bde3582b277788715234.setContent(html_d19391a21e7962317eef1765ad830a1b);
+            
+        
+
+        geo_json_b2a11240b226f57e34fab8d0e00378b4.bindPopup(popup_1e6a3d2d4b55bde3582b277788715234)
+        ;
+
+        
+    
+    
+                geo_json_b2a11240b226f57e34fab8d0e00378b4.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_27331c1ac1b4b25fa232473576875d2e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_27331c1ac1b4b25fa232473576875d2e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_27331c1ac1b4b25fa232473576875d2e = L.geoJson(null, {
+                onEachFeature: geo_json_27331c1ac1b4b25fa232473576875d2e_onEachFeature,
+            
+                style: geo_json_27331c1ac1b4b25fa232473576875d2e_styler,
+        });
+
+        function geo_json_27331c1ac1b4b25fa232473576875d2e_add (data) {
+            geo_json_27331c1ac1b4b25fa232473576875d2e
+                .addData(data);
+        }
+            geo_json_27331c1ac1b4b25fa232473576875d2e_add({"features": [{"geometry": {"coordinates": [-48.104577, -15.817339], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_e66fc7a5e3e57229b2c28e433c8d942a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c26cf89407fdc0a2c0f5749f3bb92b74 = $(`<div id="html_c26cf89407fdc0a2c0f5749f3bb92b74" style="width: 100.0%; height: 100.0%;">                  Município: RA 09_CEILANDIA <br>                  Furtos registrados: 3342                  </div>`)[0];
+                popup_e66fc7a5e3e57229b2c28e433c8d942a.setContent(html_c26cf89407fdc0a2c0f5749f3bb92b74);
+            
+        
+
+        geo_json_27331c1ac1b4b25fa232473576875d2e.bindPopup(popup_e66fc7a5e3e57229b2c28e433c8d942a)
+        ;
+
+        
+    
+    
+                geo_json_27331c1ac1b4b25fa232473576875d2e.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_530415d986d3d2d23fc3fbae5fa2f220_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_530415d986d3d2d23fc3fbae5fa2f220_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_530415d986d3d2d23fc3fbae5fa2f220 = L.geoJson(null, {
+                onEachFeature: geo_json_530415d986d3d2d23fc3fbae5fa2f220_onEachFeature,
+            
+                style: geo_json_530415d986d3d2d23fc3fbae5fa2f220_styler,
+        });
+
+        function geo_json_530415d986d3d2d23fc3fbae5fa2f220_add (data) {
+            geo_json_530415d986d3d2d23fc3fbae5fa2f220
+                .addData(data);
+        }
+            geo_json_530415d986d3d2d23fc3fbae5fa2f220_add({"features": [{"geometry": {"coordinates": [-47.976816, -15.823563], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_050fca52dc277b6fd7795c828eeb2391 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9c4d62bb86ebf27c22ce2f915161c5cb = $(`<div id="html_9c4d62bb86ebf27c22ce2f915161c5cb" style="width: 100.0%; height: 100.0%;">                  Município: RA 10_GUARA <br>                  Furtos registrados: 795                  </div>`)[0];
+                popup_050fca52dc277b6fd7795c828eeb2391.setContent(html_9c4d62bb86ebf27c22ce2f915161c5cb);
+            
+        
+
+        geo_json_530415d986d3d2d23fc3fbae5fa2f220.bindPopup(popup_050fca52dc277b6fd7795c828eeb2391)
+        ;
+
+        
+    
+    
+                geo_json_530415d986d3d2d23fc3fbae5fa2f220.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_cc3153ac10d6094791f95f1f666fddf8_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_cc3153ac10d6094791f95f1f666fddf8_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_cc3153ac10d6094791f95f1f666fddf8 = L.geoJson(null, {
+                onEachFeature: geo_json_cc3153ac10d6094791f95f1f666fddf8_onEachFeature,
+            
+                style: geo_json_cc3153ac10d6094791f95f1f666fddf8_styler,
+        });
+
+        function geo_json_cc3153ac10d6094791f95f1f666fddf8_add (data) {
+            geo_json_cc3153ac10d6094791f95f1f666fddf8
+                .addData(data);
+        }
+            geo_json_cc3153ac10d6094791f95f1f666fddf8_add({"features": [{"geometry": {"coordinates": [-47.937443, -15.790782], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_9be8db07ab61bc94e7d5eb74660b826a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2e602427cac5b1e39586f03fc498253a = $(`<div id="html_2e602427cac5b1e39586f03fc498253a" style="width: 100.0%; height: 100.0%;">                  Município: RA 11_CRUZEIRO <br>                  Furtos registrados: 170                  </div>`)[0];
+                popup_9be8db07ab61bc94e7d5eb74660b826a.setContent(html_2e602427cac5b1e39586f03fc498253a);
+            
+        
+
+        geo_json_cc3153ac10d6094791f95f1f666fddf8.bindPopup(popup_9be8db07ab61bc94e7d5eb74660b826a)
+        ;
+
+        
+    
+    
+                geo_json_cc3153ac10d6094791f95f1f666fddf8.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_285163fc50e7d1546d7fc894c02a7e16_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_285163fc50e7d1546d7fc894c02a7e16_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_285163fc50e7d1546d7fc894c02a7e16 = L.geoJson(null, {
+                onEachFeature: geo_json_285163fc50e7d1546d7fc894c02a7e16_onEachFeature,
+            
+                style: geo_json_285163fc50e7d1546d7fc894c02a7e16_styler,
+        });
+
+        function geo_json_285163fc50e7d1546d7fc894c02a7e16_add (data) {
+            geo_json_285163fc50e7d1546d7fc894c02a7e16
+                .addData(data);
+        }
+            geo_json_285163fc50e7d1546d7fc894c02a7e16_add({"features": [{"geometry": {"coordinates": [-48.0881, -15.876999], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_1910faf57fdb6d759753369a140dedb4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_74c3d061a6b8d2a11f1383d7085504bd = $(`<div id="html_74c3d061a6b8d2a11f1383d7085504bd" style="width: 100.0%; height: 100.0%;">                  Município: RA 12_SAMAMBAIA <br>                  Furtos registrados: 1685                  </div>`)[0];
+                popup_1910faf57fdb6d759753369a140dedb4.setContent(html_74c3d061a6b8d2a11f1383d7085504bd);
+            
+        
+
+        geo_json_285163fc50e7d1546d7fc894c02a7e16.bindPopup(popup_1910faf57fdb6d759753369a140dedb4)
+        ;
+
+        
+    
+    
+                geo_json_285163fc50e7d1546d7fc894c02a7e16.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_7e5a90b085cd4fe496fd77e64482b131_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_7e5a90b085cd4fe496fd77e64482b131_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_7e5a90b085cd4fe496fd77e64482b131 = L.geoJson(null, {
+                onEachFeature: geo_json_7e5a90b085cd4fe496fd77e64482b131_onEachFeature,
+            
+                style: geo_json_7e5a90b085cd4fe496fd77e64482b131_styler,
+        });
+
+        function geo_json_7e5a90b085cd4fe496fd77e64482b131_add (data) {
+            geo_json_7e5a90b085cd4fe496fd77e64482b131
+                .addData(data);
+        }
+            geo_json_7e5a90b085cd4fe496fd77e64482b131_add({"features": [{"geometry": {"coordinates": [-48.013133, -16.017123], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_c76e6496f101a8c368ed185fcd4dd951 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4e12c7a7bcd071c3f69a9b43e88cd27d = $(`<div id="html_4e12c7a7bcd071c3f69a9b43e88cd27d" style="width: 100.0%; height: 100.0%;">                  Município: RA 13_SANTA MARIA <br>                  Furtos registrados: 820                  </div>`)[0];
+                popup_c76e6496f101a8c368ed185fcd4dd951.setContent(html_4e12c7a7bcd071c3f69a9b43e88cd27d);
+            
+        
+
+        geo_json_7e5a90b085cd4fe496fd77e64482b131.bindPopup(popup_c76e6496f101a8c368ed185fcd4dd951)
+        ;
+
+        
+    
+    
+                geo_json_7e5a90b085cd4fe496fd77e64482b131.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_79dfeac4f48f5963a2d43eb7aaac901a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_79dfeac4f48f5963a2d43eb7aaac901a_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_79dfeac4f48f5963a2d43eb7aaac901a = L.geoJson(null, {
+                onEachFeature: geo_json_79dfeac4f48f5963a2d43eb7aaac901a_onEachFeature,
+            
+                style: geo_json_79dfeac4f48f5963a2d43eb7aaac901a_styler,
+        });
+
+        function geo_json_79dfeac4f48f5963a2d43eb7aaac901a_add (data) {
+            geo_json_79dfeac4f48f5963a2d43eb7aaac901a
+                .addData(data);
+        }
+            geo_json_79dfeac4f48f5963a2d43eb7aaac901a_add({"features": [{"geometry": {"coordinates": [-47.771774, -15.903377], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_bc3c08d9f5a5e53b3f71f9bbdb6f15c9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ebdd7f371f7ca6066e9fa1f5ccebb1c1 = $(`<div id="html_ebdd7f371f7ca6066e9fa1f5ccebb1c1" style="width: 100.0%; height: 100.0%;">                  Município: RA 14_SAO SEBASTIAO <br>                  Furtos registrados: 513                  </div>`)[0];
+                popup_bc3c08d9f5a5e53b3f71f9bbdb6f15c9.setContent(html_ebdd7f371f7ca6066e9fa1f5ccebb1c1);
+            
+        
+
+        geo_json_79dfeac4f48f5963a2d43eb7aaac901a.bindPopup(popup_bc3c08d9f5a5e53b3f71f9bbdb6f15c9)
+        ;
+
+        
+    
+    
+                geo_json_79dfeac4f48f5963a2d43eb7aaac901a.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_4a3035b8bb58ba07ce25bbf3294c3d41_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_4a3035b8bb58ba07ce25bbf3294c3d41_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4a3035b8bb58ba07ce25bbf3294c3d41 = L.geoJson(null, {
+                onEachFeature: geo_json_4a3035b8bb58ba07ce25bbf3294c3d41_onEachFeature,
+            
+                style: geo_json_4a3035b8bb58ba07ce25bbf3294c3d41_styler,
+        });
+
+        function geo_json_4a3035b8bb58ba07ce25bbf3294c3d41_add (data) {
+            geo_json_4a3035b8bb58ba07ce25bbf3294c3d41
+                .addData(data);
+        }
+            geo_json_4a3035b8bb58ba07ce25bbf3294c3d41_add({"features": [{"geometry": {"coordinates": [-48.054121, -15.918837], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_f5ec43dbe5befe0fe6c249a04ae539da = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a439763fbe86ad048d3a3738db999a80 = $(`<div id="html_a439763fbe86ad048d3a3738db999a80" style="width: 100.0%; height: 100.0%;">                  Município: RA 15_RECANTO DAS EMAS <br>                  Furtos registrados: 753                  </div>`)[0];
+                popup_f5ec43dbe5befe0fe6c249a04ae539da.setContent(html_a439763fbe86ad048d3a3738db999a80);
+            
+        
+
+        geo_json_4a3035b8bb58ba07ce25bbf3294c3d41.bindPopup(popup_f5ec43dbe5befe0fe6c249a04ae539da)
+        ;
+
+        
+    
+    
+                geo_json_4a3035b8bb58ba07ce25bbf3294c3d41.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_09909d175a88df6aa1d218976011c3b1_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_09909d175a88df6aa1d218976011c3b1_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_09909d175a88df6aa1d218976011c3b1 = L.geoJson(null, {
+                onEachFeature: geo_json_09909d175a88df6aa1d218976011c3b1_onEachFeature,
+            
+                style: geo_json_09909d175a88df6aa1d218976011c3b1_styler,
+        });
+
+        function geo_json_09909d175a88df6aa1d218976011c3b1_add (data) {
+            geo_json_09909d175a88df6aa1d218976011c3b1
+                .addData(data);
+        }
+            geo_json_09909d175a88df6aa1d218976011c3b1_add({"features": [{"geometry": {"coordinates": [-47.875534, -15.839182], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_385e2e65097e7f6b1814bb2c475c9c50 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0e802d7d3cc065b97d0675256592a431 = $(`<div id="html_0e802d7d3cc065b97d0675256592a431" style="width: 100.0%; height: 100.0%;">                  Município: RA 16_LAGO SUL <br>                  Furtos registrados: 123                  </div>`)[0];
+                popup_385e2e65097e7f6b1814bb2c475c9c50.setContent(html_0e802d7d3cc065b97d0675256592a431);
+            
+        
+
+        geo_json_09909d175a88df6aa1d218976011c3b1.bindPopup(popup_385e2e65097e7f6b1814bb2c475c9c50)
+        ;
+
+        
+    
+    
+                geo_json_09909d175a88df6aa1d218976011c3b1.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_29840bcd48fef09e4831e3e3560a10b5_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_29840bcd48fef09e4831e3e3560a10b5_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_29840bcd48fef09e4831e3e3560a10b5 = L.geoJson(null, {
+                onEachFeature: geo_json_29840bcd48fef09e4831e3e3560a10b5_onEachFeature,
+            
+                style: geo_json_29840bcd48fef09e4831e3e3560a10b5_styler,
+        });
+
+        function geo_json_29840bcd48fef09e4831e3e3560a10b5_add (data) {
+            geo_json_29840bcd48fef09e4831e3e3560a10b5
+                .addData(data);
+        }
+            geo_json_29840bcd48fef09e4831e3e3560a10b5_add({"features": [{"geometry": {"coordinates": [-48.017476, -15.883305], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_f26df8fc3d2f59ef690c2864fb8f65d7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2b1895d69e6ce401dc2dc03458d7f739 = $(`<div id="html_2b1895d69e6ce401dc2dc03458d7f739" style="width: 100.0%; height: 100.0%;">                  Município: RA 17_RIACHO FUNDO <br>                  Furtos registrados: 254                  </div>`)[0];
+                popup_f26df8fc3d2f59ef690c2864fb8f65d7.setContent(html_2b1895d69e6ce401dc2dc03458d7f739);
+            
+        
+
+        geo_json_29840bcd48fef09e4831e3e3560a10b5.bindPopup(popup_f26df8fc3d2f59ef690c2864fb8f65d7)
+        ;
+
+        
+    
+    
+                geo_json_29840bcd48fef09e4831e3e3560a10b5.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_f4b852583b30e9aec055fb9a32b8e84f_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_f4b852583b30e9aec055fb9a32b8e84f_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_f4b852583b30e9aec055fb9a32b8e84f = L.geoJson(null, {
+                onEachFeature: geo_json_f4b852583b30e9aec055fb9a32b8e84f_onEachFeature,
+            
+                style: geo_json_f4b852583b30e9aec055fb9a32b8e84f_styler,
+        });
+
+        function geo_json_f4b852583b30e9aec055fb9a32b8e84f_add (data) {
+            geo_json_f4b852583b30e9aec055fb9a32b8e84f
+                .addData(data);
+        }
+            geo_json_f4b852583b30e9aec055fb9a32b8e84f_add({"features": [{"geometry": {"coordinates": [-47.864158, -15.734235], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_26ddafe69663405c05abe6ea48a9d7aa = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fa976b7bdf72beb015bcd480c67333e9 = $(`<div id="html_fa976b7bdf72beb015bcd480c67333e9" style="width: 100.0%; height: 100.0%;">                  Município: RA 18_LAGO NORTE <br>                  Furtos registrados: 90                  </div>`)[0];
+                popup_26ddafe69663405c05abe6ea48a9d7aa.setContent(html_fa976b7bdf72beb015bcd480c67333e9);
+            
+        
+
+        geo_json_f4b852583b30e9aec055fb9a32b8e84f.bindPopup(popup_26ddafe69663405c05abe6ea48a9d7aa)
+        ;
+
+        
+    
+    
+                geo_json_f4b852583b30e9aec055fb9a32b8e84f.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_bf90d3f07d6cee5c98eb417a427f8224_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_bf90d3f07d6cee5c98eb417a427f8224_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_bf90d3f07d6cee5c98eb417a427f8224 = L.geoJson(null, {
+                onEachFeature: geo_json_bf90d3f07d6cee5c98eb417a427f8224_onEachFeature,
+            
+                style: geo_json_bf90d3f07d6cee5c98eb417a427f8224_styler,
+        });
+
+        function geo_json_bf90d3f07d6cee5c98eb417a427f8224_add (data) {
+            geo_json_bf90d3f07d6cee5c98eb417a427f8224
+                .addData(data);
+        }
+            geo_json_bf90d3f07d6cee5c98eb417a427f8224_add({"features": [{"geometry": {"coordinates": [-47.949377, -15.853661], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_dad33df87495367aa161a17c535fb3e9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c80c8823698e755c904ccfec3ed822a7 = $(`<div id="html_c80c8823698e755c904ccfec3ed822a7" style="width: 100.0%; height: 100.0%;">                  Município: RA 19_CANDANGOLANDIA* <br>                  Furtos registrados: 55                  </div>`)[0];
+                popup_dad33df87495367aa161a17c535fb3e9.setContent(html_c80c8823698e755c904ccfec3ed822a7);
+            
+        
+
+        geo_json_bf90d3f07d6cee5c98eb417a427f8224.bindPopup(popup_dad33df87495367aa161a17c535fb3e9)
+        ;
+
+        
+    
+    
+                geo_json_bf90d3f07d6cee5c98eb417a427f8224.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_c63d28bd1998886773f0dad8d06a4b70_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_c63d28bd1998886773f0dad8d06a4b70_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c63d28bd1998886773f0dad8d06a4b70 = L.geoJson(null, {
+                onEachFeature: geo_json_c63d28bd1998886773f0dad8d06a4b70_onEachFeature,
+            
+                style: geo_json_c63d28bd1998886773f0dad8d06a4b70_styler,
+        });
+
+        function geo_json_c63d28bd1998886773f0dad8d06a4b70_add (data) {
+            geo_json_c63d28bd1998886773f0dad8d06a4b70
+                .addData(data);
+        }
+            geo_json_c63d28bd1998886773f0dad8d06a4b70_add({"features": [{"geometry": {"coordinates": [-48.028121, -15.841993], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_c25024f9e631725a31d26e3ec9516cbc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_668a1b09053b3cde144c59e10a5d687c = $(`<div id="html_668a1b09053b3cde144c59e10a5d687c" style="width: 100.0%; height: 100.0%;">                  Município: RA 20_AGUAS CLARAS <br>                  Furtos registrados: 572                  </div>`)[0];
+                popup_c25024f9e631725a31d26e3ec9516cbc.setContent(html_668a1b09053b3cde144c59e10a5d687c);
+            
+        
+
+        geo_json_c63d28bd1998886773f0dad8d06a4b70.bindPopup(popup_c25024f9e631725a31d26e3ec9516cbc)
+        ;
+
+        
+    
+    
+                geo_json_c63d28bd1998886773f0dad8d06a4b70.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_0cca7e32db19491ffb05f0c569074c69_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_0cca7e32db19491ffb05f0c569074c69_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_0cca7e32db19491ffb05f0c569074c69 = L.geoJson(null, {
+                onEachFeature: geo_json_0cca7e32db19491ffb05f0c569074c69_onEachFeature,
+            
+                style: geo_json_0cca7e32db19491ffb05f0c569074c69_styler,
+        });
+
+        function geo_json_0cca7e32db19491ffb05f0c569074c69_add (data) {
+            geo_json_0cca7e32db19491ffb05f0c569074c69
+                .addData(data);
+        }
+            geo_json_0cca7e32db19491ffb05f0c569074c69_add({"features": [{"geometry": {"coordinates": [-48.048811, -15.907114], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_d62ee4f89140b6f4203581a86be7ecf6 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2f38b1714d4eb2869ff1e8d281243480 = $(`<div id="html_2f38b1714d4eb2869ff1e8d281243480" style="width: 100.0%; height: 100.0%;">                  Município: RA 21_RIACHO FUNDO 2 <br>                  Furtos registrados: 204                  </div>`)[0];
+                popup_d62ee4f89140b6f4203581a86be7ecf6.setContent(html_2f38b1714d4eb2869ff1e8d281243480);
+            
+        
+
+        geo_json_0cca7e32db19491ffb05f0c569074c69.bindPopup(popup_d62ee4f89140b6f4203581a86be7ecf6)
+        ;
+
+        
+    
+    
+                geo_json_0cca7e32db19491ffb05f0c569074c69.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_f4563b97ef2fcd116f2e2d7a798e8bba_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_f4563b97ef2fcd116f2e2d7a798e8bba_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_f4563b97ef2fcd116f2e2d7a798e8bba = L.geoJson(null, {
+                onEachFeature: geo_json_f4563b97ef2fcd116f2e2d7a798e8bba_onEachFeature,
+            
+                style: geo_json_f4563b97ef2fcd116f2e2d7a798e8bba_styler,
+        });
+
+        function geo_json_f4563b97ef2fcd116f2e2d7a798e8bba_add (data) {
+            geo_json_f4563b97ef2fcd116f2e2d7a798e8bba
+                .addData(data);
+        }
+            geo_json_f4563b97ef2fcd116f2e2d7a798e8bba_add({"features": [{"geometry": {"coordinates": [-47.92439, -15.800219], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_69706d608075beeaf9165dba61c1b24c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0a55f346c89ab03c0509693bcb095e75 = $(`<div id="html_0a55f346c89ab03c0509693bcb095e75" style="width: 100.0%; height: 100.0%;">                  Município: RA 22_SUDOESTE <br>                  Furtos registrados: 197                  </div>`)[0];
+                popup_69706d608075beeaf9165dba61c1b24c.setContent(html_0a55f346c89ab03c0509693bcb095e75);
+            
+        
+
+        geo_json_f4563b97ef2fcd116f2e2d7a798e8bba.bindPopup(popup_69706d608075beeaf9165dba61c1b24c)
+        ;
+
+        
+    
+    
+                geo_json_f4563b97ef2fcd116f2e2d7a798e8bba.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_8127cd8feb8c3a05b2611108e5b3f16c_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_8127cd8feb8c3a05b2611108e5b3f16c_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_8127cd8feb8c3a05b2611108e5b3f16c = L.geoJson(null, {
+                onEachFeature: geo_json_8127cd8feb8c3a05b2611108e5b3f16c_onEachFeature,
+            
+                style: geo_json_8127cd8feb8c3a05b2611108e5b3f16c_styler,
+        });
+
+        function geo_json_8127cd8feb8c3a05b2611108e5b3f16c_add (data) {
+            geo_json_8127cd8feb8c3a05b2611108e5b3f16c
+                .addData(data);
+        }
+            geo_json_8127cd8feb8c3a05b2611108e5b3f16c_add({"features": [{"geometry": {"coordinates": [-47.876334, -15.710824], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_ea97a13eb0992cfd0618c51f87ead95a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a8733839615163a1036262dc1b06dd9b = $(`<div id="html_a8733839615163a1036262dc1b06dd9b" style="width: 100.0%; height: 100.0%;">                  Município: RA 23_VARJAO DO TORTO* <br>                  Furtos registrados: 50                  </div>`)[0];
+                popup_ea97a13eb0992cfd0618c51f87ead95a.setContent(html_a8733839615163a1036262dc1b06dd9b);
+            
+        
+
+        geo_json_8127cd8feb8c3a05b2611108e5b3f16c.bindPopup(popup_ea97a13eb0992cfd0618c51f87ead95a)
+        ;
+
+        
+    
+    
+                geo_json_8127cd8feb8c3a05b2611108e5b3f16c.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_d561c3066bd41298048331fec1521011_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_d561c3066bd41298048331fec1521011_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_d561c3066bd41298048331fec1521011 = L.geoJson(null, {
+                onEachFeature: geo_json_d561c3066bd41298048331fec1521011_onEachFeature,
+            
+                style: geo_json_d561c3066bd41298048331fec1521011_styler,
+        });
+
+        function geo_json_d561c3066bd41298048331fec1521011_add (data) {
+            geo_json_d561c3066bd41298048331fec1521011
+                .addData(data);
+        }
+            geo_json_d561c3066bd41298048331fec1521011_add({"features": [{"geometry": {"coordinates": [-47.963322, -15.902739], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_0673624af606da258f662c1570b94d01 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e90da60b61d1bd9eebe460d4159fc786 = $(`<div id="html_e90da60b61d1bd9eebe460d4159fc786" style="width: 100.0%; height: 100.0%;">                  Município: RA 24_PARK WAY* <br>                  Furtos registrados: 29                  </div>`)[0];
+                popup_0673624af606da258f662c1570b94d01.setContent(html_e90da60b61d1bd9eebe460d4159fc786);
+            
+        
+
+        geo_json_d561c3066bd41298048331fec1521011.bindPopup(popup_0673624af606da258f662c1570b94d01)
+        ;
+
+        
+    
+    
+                geo_json_d561c3066bd41298048331fec1521011.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_8d51d8b9407791b1cdb07d1ce00b253e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_8d51d8b9407791b1cdb07d1ce00b253e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_8d51d8b9407791b1cdb07d1ce00b253e = L.geoJson(null, {
+                onEachFeature: geo_json_8d51d8b9407791b1cdb07d1ce00b253e_onEachFeature,
+            
+                style: geo_json_8d51d8b9407791b1cdb07d1ce00b253e_styler,
+        });
+
+        function geo_json_8d51d8b9407791b1cdb07d1ce00b253e_add (data) {
+            geo_json_8d51d8b9407791b1cdb07d1ce00b253e
+                .addData(data);
+        }
+            geo_json_8d51d8b9407791b1cdb07d1ce00b253e_add({"features": [{"geometry": {"coordinates": [-47.987921, -15.782401], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_dc1afc33fa1c4093752131ef8d9d732b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_34110dfdf3c22605c67c86a834b15d02 = $(`<div id="html_34110dfdf3c22605c67c86a834b15d02" style="width: 100.0%; height: 100.0%;">                  Município: RA 25_ESTRUTURAL <br>                  Furtos registrados: 250                  </div>`)[0];
+                popup_dc1afc33fa1c4093752131ef8d9d732b.setContent(html_34110dfdf3c22605c67c86a834b15d02);
+            
+        
+
+        geo_json_8d51d8b9407791b1cdb07d1ce00b253e.bindPopup(popup_dc1afc33fa1c4093752131ef8d9d732b)
+        ;
+
+        
+    
+    
+                geo_json_8d51d8b9407791b1cdb07d1ce00b253e.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_c7f83c3a4a425dbfd2c52b3844f2e579_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_c7f83c3a4a425dbfd2c52b3844f2e579_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c7f83c3a4a425dbfd2c52b3844f2e579 = L.geoJson(null, {
+                onEachFeature: geo_json_c7f83c3a4a425dbfd2c52b3844f2e579_onEachFeature,
+            
+                style: geo_json_c7f83c3a4a425dbfd2c52b3844f2e579_styler,
+        });
+
+        function geo_json_c7f83c3a4a425dbfd2c52b3844f2e579_add (data) {
+            geo_json_c7f83c3a4a425dbfd2c52b3844f2e579
+                .addData(data);
+        }
+            geo_json_c7f83c3a4a425dbfd2c52b3844f2e579_add({"features": [{"geometry": {"coordinates": [-47.784845, -15.650053], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_658fa11a3d95ecb515f42f80641ea3bb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3e0bbc98940d429e290558e2f446217c = $(`<div id="html_3e0bbc98940d429e290558e2f446217c" style="width: 100.0%; height: 100.0%;">                  Município: RA 26_SOBRADINHO 2 <br>                  Furtos registrados: 179                  </div>`)[0];
+                popup_658fa11a3d95ecb515f42f80641ea3bb.setContent(html_3e0bbc98940d429e290558e2f446217c);
+            
+        
+
+        geo_json_c7f83c3a4a425dbfd2c52b3844f2e579.bindPopup(popup_658fa11a3d95ecb515f42f80641ea3bb)
+        ;
+
+        
+    
+    
+                geo_json_c7f83c3a4a425dbfd2c52b3844f2e579.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_53ad82f4143b56564810e81f28f044ea_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_53ad82f4143b56564810e81f28f044ea_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_53ad82f4143b56564810e81f28f044ea = L.geoJson(null, {
+                onEachFeature: geo_json_53ad82f4143b56564810e81f28f044ea_onEachFeature,
+            
+                style: geo_json_53ad82f4143b56564810e81f28f044ea_styler,
+        });
+
+        function geo_json_53ad82f4143b56564810e81f28f044ea_add (data) {
+            geo_json_53ad82f4143b56564810e81f28f044ea
+                .addData(data);
+        }
+            geo_json_53ad82f4143b56564810e81f28f044ea_add({"features": [{"geometry": {"coordinates": [-47.788521, -15.863892], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_2494597aa126dbc2301d65e520ba7b29 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ccbf79948f9d1d506972bd0af81e5600 = $(`<div id="html_ccbf79948f9d1d506972bd0af81e5600" style="width: 100.0%; height: 100.0%;">                  Município: RA 27_JARDIM BOTANICO <br>                  Furtos registrados: 37                  </div>`)[0];
+                popup_2494597aa126dbc2301d65e520ba7b29.setContent(html_ccbf79948f9d1d506972bd0af81e5600);
+            
+        
+
+        geo_json_53ad82f4143b56564810e81f28f044ea.bindPopup(popup_2494597aa126dbc2301d65e520ba7b29)
+        ;
+
+        
+    
+    
+                geo_json_53ad82f4143b56564810e81f28f044ea.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_7fae345cea922a41531da0fffb1e0791_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_7fae345cea922a41531da0fffb1e0791_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_7fae345cea922a41531da0fffb1e0791 = L.geoJson(null, {
+                onEachFeature: geo_json_7fae345cea922a41531da0fffb1e0791_onEachFeature,
+            
+                style: geo_json_7fae345cea922a41531da0fffb1e0791_styler,
+        });
+
+        function geo_json_7fae345cea922a41531da0fffb1e0791_add (data) {
+            geo_json_7fae345cea922a41531da0fffb1e0791
+                .addData(data);
+        }
+            geo_json_7fae345cea922a41531da0fffb1e0791_add({"features": [{"geometry": {"coordinates": [-47.769694, -15.748453], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_9e32cd38f807352750c86476bfec89bd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8b19420e3567bd9f973db784adc649d1 = $(`<div id="html_8b19420e3567bd9f973db784adc649d1" style="width: 100.0%; height: 100.0%;">                  Município: RA 28_ITAPOA <br>                  Furtos registrados: 376                  </div>`)[0];
+                popup_9e32cd38f807352750c86476bfec89bd.setContent(html_8b19420e3567bd9f973db784adc649d1);
+            
+        
+
+        geo_json_7fae345cea922a41531da0fffb1e0791.bindPopup(popup_9e32cd38f807352750c86476bfec89bd)
+        ;
+
+        
+    
+    
+                geo_json_7fae345cea922a41531da0fffb1e0791.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8 = L.geoJson(null, {
+                onEachFeature: geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8_onEachFeature,
+            
+                style: geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8_styler,
+        });
+
+        function geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8_add (data) {
+            geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8
+                .addData(data);
+        }
+            geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8_add({"features": [{"geometry": {"coordinates": [-47.959158, -15.806182], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_01902c04d6b01a7d19935175383227e9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_09a48e87d0a1c33aa1730645319e1b62 = $(`<div id="html_09a48e87d0a1c33aa1730645319e1b62" style="width: 100.0%; height: 100.0%;">                  Município: RA 29_SIA <br>                  Furtos registrados: 559                  </div>`)[0];
+                popup_01902c04d6b01a7d19935175383227e9.setContent(html_09a48e87d0a1c33aa1730645319e1b62);
+            
+        
+
+        geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8.bindPopup(popup_01902c04d6b01a7d19935175383227e9)
+        ;
+
+        
+    
+    
+                geo_json_ebada0f5e01f96d0f62ceb4df8da2ad8.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_c26383700c9ded691726829f97d1860a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_c26383700c9ded691726829f97d1860a_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c26383700c9ded691726829f97d1860a = L.geoJson(null, {
+                onEachFeature: geo_json_c26383700c9ded691726829f97d1860a_onEachFeature,
+            
+                style: geo_json_c26383700c9ded691726829f97d1860a_styler,
+        });
+
+        function geo_json_c26383700c9ded691726829f97d1860a_add (data) {
+            geo_json_c26383700c9ded691726829f97d1860a
+                .addData(data);
+        }
+            geo_json_c26383700c9ded691726829f97d1860a_add({"features": [{"geometry": {"coordinates": [-48.015604, -15.813571], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_37775eae06c20c4623b58e3c4659d1cc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c558fa6ebadd13505bb8a452468352df = $(`<div id="html_c558fa6ebadd13505bb8a452468352df" style="width: 100.0%; height: 100.0%;">                  Município: RA 30_VICENTE PIRES <br>                  Furtos registrados: 482                  </div>`)[0];
+                popup_37775eae06c20c4623b58e3c4659d1cc.setContent(html_c558fa6ebadd13505bb8a452468352df);
+            
+        
+
+        geo_json_c26383700c9ded691726829f97d1860a.bindPopup(popup_37775eae06c20c4623b58e3c4659d1cc)
+        ;
+
+        
+    
+    
+                geo_json_c26383700c9ded691726829f97d1860a.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_fc7daa0ddcc02b1aa400b16ab919ad82_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_fc7daa0ddcc02b1aa400b16ab919ad82_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_fc7daa0ddcc02b1aa400b16ab919ad82 = L.geoJson(null, {
+                onEachFeature: geo_json_fc7daa0ddcc02b1aa400b16ab919ad82_onEachFeature,
+            
+                style: geo_json_fc7daa0ddcc02b1aa400b16ab919ad82_styler,
+        });
+
+        function geo_json_fc7daa0ddcc02b1aa400b16ab919ad82_add (data) {
+            geo_json_fc7daa0ddcc02b1aa400b16ab919ad82
+                .addData(data);
+        }
+            geo_json_fc7daa0ddcc02b1aa400b16ab919ad82_add({"features": [{"geometry": {"coordinates": [-47.871595, -15.600233], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_1e8aaeba380b3147179761e25a8d4fe1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_69f79b4abf1f0e6e6e041461d4dc3683 = $(`<div id="html_69f79b4abf1f0e6e6e041461d4dc3683" style="width: 100.0%; height: 100.0%;">                  Município: RA 31_FERCAL* <br>                  Furtos registrados: 43                  </div>`)[0];
+                popup_1e8aaeba380b3147179761e25a8d4fe1.setContent(html_69f79b4abf1f0e6e6e041461d4dc3683);
+            
+        
+
+        geo_json_fc7daa0ddcc02b1aa400b16ab919ad82.bindPopup(popup_1e8aaeba380b3147179761e25a8d4fe1)
+        ;
+
+        
+    
+    
+                geo_json_fc7daa0ddcc02b1aa400b16ab919ad82.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_302ad346daa17e0bf333f6cd6e38286d_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_302ad346daa17e0bf333f6cd6e38286d_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_302ad346daa17e0bf333f6cd6e38286d = L.geoJson(null, {
+                onEachFeature: geo_json_302ad346daa17e0bf333f6cd6e38286d_onEachFeature,
+            
+                style: geo_json_302ad346daa17e0bf333f6cd6e38286d_styler,
+        });
+
+        function geo_json_302ad346daa17e0bf333f6cd6e38286d_add (data) {
+            geo_json_302ad346daa17e0bf333f6cd6e38286d
+                .addData(data);
+        }
+            geo_json_302ad346daa17e0bf333f6cd6e38286d_add({"features": [{"geometry": {"coordinates": [-48.151735, -15.812706], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_f3cd4a2f948d47cb9d65d1a6c8cc8e74 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2a0fc392ac67172f4228a874631ac612 = $(`<div id="html_2a0fc392ac67172f4228a874631ac612" style="width: 100.0%; height: 100.0%;">                  Município: RA 32_SOL NASCENTE/POR DO SOL <br>                  Furtos registrados: 368                  </div>`)[0];
+                popup_f3cd4a2f948d47cb9d65d1a6c8cc8e74.setContent(html_2a0fc392ac67172f4228a874631ac612);
+            
+        
+
+        geo_json_302ad346daa17e0bf333f6cd6e38286d.bindPopup(popup_f3cd4a2f948d47cb9d65d1a6c8cc8e74)
+        ;
+
+        
+    
+    
+                geo_json_302ad346daa17e0bf333f6cd6e38286d.addTo(map_e22dd1615847f99e8355518153505df3);
+    
+        function geo_json_d8712c494f4881f3169a0ea343a57f82_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "blue", "fillOpacity": 0.1, "weight": 2};
+            }
+        }
+
+        function geo_json_d8712c494f4881f3169a0ea343a57f82_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_d8712c494f4881f3169a0ea343a57f82 = L.geoJson(null, {
+                onEachFeature: geo_json_d8712c494f4881f3169a0ea343a57f82_onEachFeature,
+            
+                style: geo_json_d8712c494f4881f3169a0ea343a57f82_styler,
+        });
+
+        function geo_json_d8712c494f4881f3169a0ea343a57f82_add (data) {
+            geo_json_d8712c494f4881f3169a0ea343a57f82
+                .addData(data);
+        }
+            geo_json_d8712c494f4881f3169a0ea343a57f82_add({"features": [{"geometry": {"coordinates": [-48.012228, -15.858976], "type": "Point"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_c1678970a034e8d864e82807f654a815 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_606e1ac88dda2c1c08f54fbc8ce84460 = $(`<div id="html_606e1ac88dda2c1c08f54fbc8ce84460" style="width: 100.0%; height: 100.0%;">                  Município: RA 33_ARNIQUEIRA <br>                  Furtos registrados: 228                  </div>`)[0];
+                popup_c1678970a034e8d864e82807f654a815.setContent(html_606e1ac88dda2c1c08f54fbc8ce84460);
+            
+        
+
+        geo_json_d8712c494f4881f3169a0ea343a57f82.bindPopup(popup_c1678970a034e8d864e82807f654a815)
+        ;
+
+        
+    
+    
+                geo_json_d8712c494f4881f3169a0ea343a57f82.addTo(map_e22dd1615847f99e8355518153505df3);
+</script>
+</html>
