@@ -3,12 +3,13 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 def main():
     # Configurando a largura total da página
     st.set_page_config(layout="wide")
-
-    # Centralizando o título
+    
+    #  título
     st.markdown("<h3 style='text-align: center; color: black;'>Furtos Contra o Patrimônio no Distrito Federal</h3>", unsafe_allow_html=True)
 
     # Carregando os dados do arquivo CSV
