@@ -23,26 +23,6 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 - `relatórios/`: Documentos ou arquivos que descrevem análises, resultados e interpretações relacionadas ao projeto geoespacial.
 - `README/`: Sobre todo o projeto.
 
-## Como Executar
-
-Como executar o projeto. Por exemplo:
-
-1. Instale as dependências com `pip install -r requirements.txt`.
-2. Execute o notebook principal: `jupyter notebook main.ipynb`.
-3. Explore o dashboard interativo: navegue até `dashboard/` e execute `python app.py`.
-
-## Resultados e Insights
-
-Destaque os principais resultados e insights obtidos durante a análise. Por exemplo, você pode incluir seções como:
-
-### Variação Percentual Anual de Ocorrências
-
-- **Brasília:** Redução de 39% em 2020-2021, aumento de 59% em 2021-2022.
-- **Gama:** Melhora significativa em 2019-2020, mas queda acentuada em 2020-2021.
-
-### Tendências Regionais
-
-...
 
 ## Habilidades e Conhecimentos Adquiridos
 
