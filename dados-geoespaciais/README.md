@@ -12,7 +12,7 @@ Destaco que as habilidades adquiridas neste projeto possuem uma aplicabilidade v
 Assim, coloco-me à disposição para discutir como essas habilidades podem ser aplicadas em diferentes cenários, contribuindo para o sucesso em projetos e iniciativas em áreas tão diversas quanto as possibilidades que este conhecimento oferece.<br>
 
 
-![mapa de frequência](https://github.com/Fernandinho937/Data-Science/issues/3)
+![mapa de frequência]([https://github.com/Fernandinho937/Data-Science/issues/3](https://github.com/Fernandinho937/Data-Science/issues/3#issue-2051111132))
 
 ## Estrutura de Pastas
 - `dashboards/`: Contém recursos relacionados à interface visual interativa apresentando análises de dados geoespaciais do Distrito Federal.
