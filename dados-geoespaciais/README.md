@@ -25,6 +25,9 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 
 
 
+![mapa de frequência]([images/gif1.gif](https://github.com/Fernandinho937/Data-Science/issues/3#issue-2051111132))
+
+
 
 
 
