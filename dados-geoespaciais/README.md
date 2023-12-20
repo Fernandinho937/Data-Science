@@ -30,7 +30,7 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 No mapa a seguir de distribuição de frequência de casos de furto, a medida em que se aproxima do mapa os dados vão se distribuindo nas regiões, e a medida que afastamos eles vão se agrupando dando uma noção das regiões de maior concentração de casos.
 
 <div style="text-align:center;">
-  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/dc74042c-888e-40e7-b94d-ffd29f7d7844" width="800" height="400">
+  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/dc74042c-888e-40e7-b94d-ffd29f7d7844" width="700" height="300">
 </div>
 
 
