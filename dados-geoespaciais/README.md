@@ -24,6 +24,15 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 - `README/`: Sobre todo o projeto.
 
 
+
+
+
+
+
+
+
+
+
 ## Habilidades e Conhecimentos Adquiridos
 
 Este projeto foi concebido com o propósito de aprimorar habilidades essenciais no domínio da análise geoespacial, proporcionando uma imersão prática em diversas competências. Ao longo desse processo, foram trabalhados e adquiridos conhecimentos que abrangem desde a obtenção e manipulação de dados espaciais até a criação de visualizações interativas e dashboard informativo.
