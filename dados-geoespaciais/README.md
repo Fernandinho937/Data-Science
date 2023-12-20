@@ -35,18 +35,22 @@ No mapa a seguir de distribuição de frequência de casos de furto, a medida em
 
 
 Temos também nosso mapa de calor, fortalecendo a nossa análise de regiões com maior insidência de casos e que merecem um pouco mais de atenção das políticas públicas de segurança.
-
-![mapacalor](https://github.com/Fernandinho937/Data-Science/assets/86840722/aa79c629-7fa1-410e-abe9-ab4ee6dd09c3)
-
+<div style="text-align:center;">
+  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/aa79c629-7fa1-410e-abe9-ab4ee6dd09c3" width="700" height="400">
+</div>
 
 
 E em nosso próximo mapa temos, mais detalhadamente, informações a respeito de cada Região Administrativa acompanhado de sua localização facilitando um possível monitoramento e acompanhamento.
+<div style="text-align:center;">
+  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/75ff2fc7-2b10-45f3-8c6e-d6ccaf7fde3f" width="700" height="400">
+</div>
 
-![mapaqtdfurtos](https://github.com/Fernandinho937/Data-Science/assets/86840722/75ff2fc7-2b10-45f3-8c6e-d6ccaf7fde3f)
 
 
 Para auxiliar o monitoramento e ter uma visão geral e ao mesmo tempo detalhada da situação do Distrito Federal contamos com um dashboard que nos auxilia nesse trabalho.
-![dashboard](https://github.com/Fernandinho937/Data-Science/assets/86840722/ac9213b4-d2be-45c7-9eff-d3b57b728053)
+<div style="text-align:center;">
+<img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/ac9213b4-d2be-45c7-9eff-d3b57b728053" width="700" height="400">
+</div>
 
 
 Além dessas informações, contamos com outras ferramentas como gráficos tabelas e outros tipos de mapas para ter uma visão mais detalhada da situação do Distrito Federal, para mais detalhes fique à vontade para explorar o projeto e suas conclusões.
