@@ -46,7 +46,8 @@ E em nosso próximo mapa temos, mais detalhadamente, informações a respeito de
 
 
 Para auxiliar o monitoramento e ter uma visão geral e ao mesmo tempo detalhada da situação do Distrito Federal contamos com um dashboard que nos auxilia nesse trabalho.
-![mapaqtdfurtos](https://github.com/Fernandinho937/Data-Science/assets/86840722/75ff2fc7-2b10-45f3-8c6e-d6ccaf7fde3f)
+![dashboard](https://github.com/Fernandinho937/Data-Science/assets/86840722/ac9213b4-d2be-45c7-9eff-d3b57b728053)
+
 
 Além dessas informações, contamos com outras ferramentas como gráficos tabelas e outros tipos de mapas para ter uma visão mais detalhada da situação do Distrito Federal, para mais detalhes fique à vontade para explorar o projeto e suas conclusões.
 
