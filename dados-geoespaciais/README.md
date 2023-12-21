@@ -26,9 +26,9 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 
 ## Caminhos para acessar o Projeto:
 
-dados-geoespaciais/notebooks/DistritoFederal.html (Furtos ao Patrimônio no Distrito Federal)
-dados-geoespaciais/dashboards/dashboard DF.pbix   (Dashboard)
-dados-geoespaciais\relatorios\Relatório.pdf       (relatório)
+- dados-geoespaciais/notebooks/DistritoFederal.html (Furtos ao Patrimônio no Distrito Federal)<br>
+- dados-geoespaciais/dashboards/dashboard DF.pbix   (Dashboard)<br>
+- dados-geoespaciais\relatorios\Relatório.pdf       (relatório)<br>
 
 
 ## Pontos Importantes do Projeto
