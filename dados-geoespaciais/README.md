@@ -25,6 +25,13 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 
 
 
+## Caminhos para acessar o Projeto:
+
+dados-geoespaciais/notebooks/DistritoFederal.html (Furtos ao Patrimônio no Distrito Federal)
+dados-geoespaciais/dashboards/dashboard DF.pbix   (Dashboard)
+dados-geoespaciais\relatorios\Relatório.pdf       (relatório)
+
+
 ## Pontos Importantes do Projeto
 
 No mapa a seguir de distribuição de frequência de casos de furto, a medida em que se aproxima do mapa os dados vão se distribuindo nas regiões, e a medida que afastamos eles vão se agrupando dando uma noção das regiões de maior concentração de casos.
