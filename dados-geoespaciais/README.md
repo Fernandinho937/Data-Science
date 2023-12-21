@@ -1,13 +1,12 @@
-
 # Projeto de Análise de Ocorrências de Furto no Distrito Federal
 
 ## Sobre o Projeto
 
-Este projeto visa analisar a quantidade de ocorrências de furto no Distrito Federal ao longo dos anos. A análise inclui visualizações gráficas, interpretação de tendências e variações, e insights que podem ser úteis para políticas públicas e ações de segurança. <br><br>
+Este projeto visa analisar a quantidade de ocorrências de furto no Distrito Federal ao longo dos anos. A análise inclui visualizações geoespacial por meio de gráficos, interpretação de tendências e variações, e insights que podem ser úteis para políticas públicas e ações de segurança. <br><br>
 
 Destaco que as habilidades adquiridas neste projeto possuem uma aplicabilidade vasta e podem ser adaptadas a uma grande variedade de cenários e setores. A capacidade de baixar, limpar e visualizar dados espaciais, criar mapas interativos e conduzir análises estatísticas e exploratórias, manipular e interpretar dados.<br><br>
 
-É importante ressaltar que essas habilidades podem ser facilmente transferidas para diversas áreas, indo além da análise de dados geoespaciais. Seja em saúde, finanças, marketing ou qualquer outra disciplina, a capacidade de extrair insights significativos dos dados é crucial. Este projeto, portanto, não é apenas uma demonstração de competência em análise espacial, mas uma evidência tangível da adaptabilidade dessas habilidades para solucionar desafios em diversos contextos.<br><br>
+É importante ressaltar que essas habilidades podem ser facilmente transferidas para diversas áreas, indo além da análise de dados geoespaciais. Seja em saúde, finanças, marketing ou qualquer outra disciplina, a capacidade de extrair insights significativos dos dados é crucial. Este projeto, portanto, não é apenas uma demonstração de competência em análise espacial, mas uma evidência tangível da adaptabilidade dessas habilidades para solucionar desafios em diversos contextos e setores.<br><br>
 
 Assim, coloco-me à disposição para discutir como essas habilidades podem ser aplicadas em diferentes cenários, contribuindo para o sucesso em projetos e iniciativas em áreas tão diversas quanto as possibilidades que este conhecimento oferece.<br>
 
@@ -24,15 +23,43 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 - `README/`: Sobre todo o projeto.
 
 
-Caminho para acessar o Projeto:
+
+## Caminhos para acessar o Projeto:
 
 dados-geoespaciais/notebooks/DistritoFederal.html (Furtos ao Patrimônio no Distrito Federal)
 dados-geoespaciais/dashboards/dashboard DF.pbix   (Dashboard)
 dados-geoespaciais\relatorios\Relatório.pdf       (relatório)
 
 
+## Pontos Importantes do Projeto
+
+No mapa a seguir de distribuição de frequência de casos de furto, a medida em que se aproxima do mapa os dados vão se distribuindo nas regiões, e a medida que afastamos eles vão se agrupando dando uma noção das regiões de maior concentração de casos.
+
+<div style="text-align:center;">
+  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/dc74042c-888e-40e7-b94d-ffd29f7d7844" width="700" height="400">
+</div>
 
 
+Temos também nosso mapa de calor, fortalecendo a nossa análise de regiões com maior insidência de casos e que merecem um pouco mais de atenção das políticas públicas de segurança.
+<div style="text-align:center;">
+  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/aa79c629-7fa1-410e-abe9-ab4ee6dd09c3" width="700" height="400">
+</div>
+
+
+E em nosso próximo mapa temos, mais detalhadamente, informações a respeito de cada Região Administrativa acompanhado de sua localização facilitando um possível monitoramento e acompanhamento.
+<div style="text-align:center;">
+  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/75ff2fc7-2b10-45f3-8c6e-d6ccaf7fde3f" width="700" height="400">
+</div>
+
+
+
+Para auxiliar o monitoramento e ter uma visão geral e ao mesmo tempo detalhada da situação do Distrito Federal contamos com um dashboard que nos auxilia nesse trabalho.
+<div style="text-align:center;">
+<img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/ac9213b4-d2be-45c7-9eff-d3b57b728053" width="700" height="400">
+</div>
+
+
+Além dessas informações, contamos com outras ferramentas como gráficos tabelas e outros tipos de mapas para ter uma visão mais detalhada da situação do Distrito Federal, para mais detalhes fique à vontade para explorar o projeto e suas conclusões.
 
 
 ## Habilidades e Conhecimentos Trabalhados
