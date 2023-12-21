@@ -24,16 +24,18 @@ Assim, coloco-me à disposição para discutir como essas habilidades podem ser 
 - `README/`: Sobre todo o projeto.
 
 
+Caminho para acessar o Projeto:
+
+dados-geoespaciais/notebooks/DistritoFederal.html (Furtos ao Patrimônio no Distrito Federal)
+dados-geoespaciais/dashboards/dashboard DF.pbix   (Dashboard)
+dados-geoespaciais\relatorios\Relatório.pdf       (relatório)
 
 
 
 
 
 
-
-
-
-## Habilidades e Conhecimentos Adquiridos
+## Habilidades e Conhecimentos Trabalhados
 
 Este projeto foi concebido com o propósito de aprimorar habilidades essenciais no domínio da análise geoespacial, proporcionando uma imersão prática em diversas competências. Ao longo desse processo, foram trabalhados e adquiridos conhecimentos que abrangem desde a obtenção e manipulação de dados espaciais até a criação de visualizações interativas e dashboard informativo.
 
