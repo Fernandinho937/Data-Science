@@ -1,6 +1,6 @@
 
 <div style="text-align:center;">
-  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/e81d757b-0d1b-4440-88bb-49b66770f666" width="700" height="400">
+  <img src="https://github.com/Fernandinho937/Data-Science/assets/86840722/e81d757b-0d1b-4440-88bb-49b66770f666" width="100%" >
 </div>
 
 
