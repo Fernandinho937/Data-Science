@@ -5,7 +5,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Fernandinho937)
 
 <p align="center">
-  <img src="banner.png" >
+  <img src="banner.jpg" >
 </p>
 
 # 💻Fernandinho Rocha 
