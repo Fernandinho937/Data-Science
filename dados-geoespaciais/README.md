@@ -62,7 +62,7 @@ Para auxiliar o monitoramento e ter uma visão geral e ao mesmo tempo detalhada 
 Além dessas informações, contamos com outras ferramentas como gráficos tabelas e outros tipos de mapas para ter uma visão mais detalhada da situação do Distrito Federal, para mais detalhes fique à vontade para explorar o projeto e suas conclusões.
 
 
-## Habilidades e Conhecimentos Trabalhados
+## Tecnologias e Conhecimentos Trabalhados
 
 Este projeto foi concebido com o propósito de aprimorar habilidades essenciais no domínio da análise geoespacial, proporcionando uma imersão prática em diversas competências. Ao longo desse processo, foram trabalhados e adquiridos conhecimentos que abrangem desde a obtenção e manipulação de dados espaciais até a criação de visualizações interativas e dashboard informativo.
 
