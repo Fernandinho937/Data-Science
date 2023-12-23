@@ -1,6 +1,9 @@
 [![author](https://img.shields.io/badge/author-FernandoRocha-red.svg)](https://www.linkedin.com/in/fernandinho-rocha/) [![python](https://www.python.org/downloads/release/python-3120/)] [![python](https://www.python.org/downloads/release/python-3120/)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Fernandinho937)
 
-[![author](https://img.shields.io/badge/author-FernandoRocha-red.svg)](https://www.linkedin.com/in/fernandinho-rocha/) [![](https://www.python.org/downloads/release/python-3120/)](https://www.python.org/downloads/release/python-3120/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Fernandinho937)
+[![author](https://img.shields.io/badge/author-FernandoRocha-red.svg)](https://www.linkedin.com/in/fernandinho-rocha/)
+[![python](https://img.shields.io/badge/python-3.12.0-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Fernandinho937)
 
 <p align="center">
   <img src="banner.png" >
