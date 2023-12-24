@@ -1,6 +1,6 @@
 
 
-[![author](https://img.shields.io/badge/author-FernandoRocha-red.svg)](https://www.linkedin.com/in/fernandinho-rocha/)
+[![author](https://img.shields.io/badge/author-FernandinhoRocha-red.svg)](https://www.linkedin.com/in/fernandinho-rocha/)
 [![python](https://img.shields.io/badge/python-3.12.0-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Fernandinho937)
 
