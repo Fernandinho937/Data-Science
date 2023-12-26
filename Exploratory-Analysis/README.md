@@ -1,5 +1,5 @@
 <div>
-<img src="Exploratory-Analysis/imgAE.jpg">
+  <img src="Exploratory-Analysis/imgAE.jpg">
 </div>
 A análise exploratória de dados é uma etapa fundamental em qualquer projeto de análise ou modelagem de dados. Ela vai além de simplesmente examinar os dados; trata-se de aprofundar a compreensão sobre o conjunto de dados que estamos manipulando. Ao invés de apenas realizar uma análise superficial, a exploração detalhada nos permite descobrir padrões, tendências, anomalias e insights valiosos que podem não ser evidentes à primeira vista.
 
