@@ -8,7 +8,6 @@ Essa abordagem não apenas facilita, mas também enriquece a execução de proje
 Em resumo, a análise exploratória de dados não é apenas uma etapa preliminar; é um processo contínuo que aprimora a compreensão dos dados ao longo do tempo. Essa compreensão mais profunda não só facilita o desenvolvimento do projeto, mas também aumenta a confiança nas conclusões e insights derivados dos dados.
 
 <br><br>
-in English: <br>
 Exploratory Data Analysis (EDA) is a crucial step in any data analysis or modeling project. It goes beyond merely examining the data; it involves delving deep into the understanding of the dataset we are handling. Instead of just conducting a surface-level analysis, detailed exploration allows us to uncover patterns, trends, anomalies, and valuable insights that may not be apparent at first glance.
 
 This approach not only facilitates but also enriches project execution by providing a more comprehensive and contextualized view of the data. By grasping the nature of the data, its distributions, relationships between variables, and peculiarities, we can make more informed decisions during subsequent stages of the project, such as model selection, preprocessing strategies, and hypothesis definition.
