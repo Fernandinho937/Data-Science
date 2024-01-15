@@ -22,7 +22,7 @@
 
 * **Dados geoespaciais:** [https://bit.ly/2L2cMwy](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
 * **Análise de vendas (SalesAnalysis):** [https://bit.ly/2Li5pzY](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
-* **Análise exploratória:** ![](https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis)
+* **Análise exploratória:** https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis
 
 
 
