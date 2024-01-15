@@ -19,7 +19,6 @@
 
 
 ## Projetos:
-Veja os tutoriais publicados do Sigmoidal:
 
 * **Dados geoespaciais:** [https://bit.ly/2L2cMwy](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
 * **Análise de vendas (SalesAnalysis):** [https://bit.ly/2Li5pzY](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
