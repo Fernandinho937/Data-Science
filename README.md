@@ -20,8 +20,8 @@
 
 ## Projetos:
 
-* **Dados geoespaciais** [Ver projeto](https://bit.ly/2L2cMwy](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
-* **Análise de vendas (SalesAnalysis)** [Ver projeto](https://bit.ly/2Li5pzY](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
+* **Dados geoespaciais** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
+* **Análise de vendas (SalesAnalysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
 * **Análise exploratória** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis)
 * **Detector de objetos** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/detector_ssd_mobilenet)
 
