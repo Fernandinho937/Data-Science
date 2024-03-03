@@ -3,7 +3,7 @@ import numpy as np
 import cvzone
 
 # videoPath = 'example1.mp4'
-videoPath = 'example1git .mp4'
+videoPath = 0
 configPath = 'ssd_mobilenet_v3_large_coco_2024_02_28.pbtxt'
 modelPath = 'frozen_inference_graph.pb'
 classesPath='coco.names'
