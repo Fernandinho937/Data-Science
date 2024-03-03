@@ -23,7 +23,7 @@
 * **Dados geoespaciais:** [https://bit.ly/2L2cMwy](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
 * **Análise de vendas (SalesAnalysis):** [https://bit.ly/2Li5pzY](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
 * **Análise exploratória:** https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis
-* **Detector de objetos:** https://github.com/Fernandinho937/Data-Science/tree/1ed58cdb6f8e048ae886c7b04b0a979887be9c81/detector_ssd_mobilenet
+* **Detector de objetos:** [Ver](https://github.com/Fernandinho937/Data-Science/tree/main/detector_ssd_mobilenet)
 
 
 
