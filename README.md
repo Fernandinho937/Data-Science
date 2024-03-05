@@ -23,6 +23,6 @@
 * **Análise de vendas (SalesAnalysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
 * **Análise exploratória(Exploratory Analysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis)
 * **Detector de objetos (Object Detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/detector_ssd_mobilenet)
-
+* **Detector de faces humanas(Human face detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/blob/main/Deteccao_de_faces.ipynb)
 
 
