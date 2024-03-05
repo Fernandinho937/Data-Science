@@ -9,7 +9,7 @@
 
 # 💻Fernandinho Rocha 
 
-👋 Olá! Sou um Cientista de Dados apaixonado por tecnologia e soluções inovadoras. Com uma formação sólida em Matemática, combinada com minha formação de Tecnólogo em Análise e Desenvolvimento de Sistemas, possuo habilidades únicas que me permitem compreender a lógica por trás dos sistemas e transmiti-la de forma clara e eficaz. 
+👋 Olá! Sou um Cientista de Dados apaixonado por tecnologia e soluções inovadoras. Com uma formação sólida em Matemática, combinada com minha formação de Tecnólogo em Análise e Desenvolvimento de Sistemas, possuo habilidades únicas que me permitem compreender a lógica por trás dos sistemas e transmiti-la de forma clara e eficaz. Além disso, estou em constante aprendizado na área de machine learning, uma das áreas mais empolgantes e promissoras da ciência de dados. Tenho dedicado tempo para explorar os fundamentos e os conceitos básicos por trás dos algoritmos de aprendizado de máquina, buscando entender como eles funcionam e como podem ser aplicados em diferentes situações. Com uma base sólida em matemática e programação, estou dando os primeiros passos na construção de modelos preditivos e na análise de dados, sempre buscando novos recursos e materiais para expandir meu conhecimento. Estou animado para continuar aprendendo e explorando as possibilidades que o mundo do machine learning oferece.
 
 **Links:**
 
