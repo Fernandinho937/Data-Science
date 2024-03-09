@@ -19,10 +19,10 @@
 
 ## Projetos (Projects):
 
-* **Dados geoespaciais(Geospatial Data)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
+* **Dados geoespaciais (Geospatial Data)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
 * **Análise de vendas (SalesAnalysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
-* **Análise exploratória(Exploratory Analysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis)
+* **Análise exploratória (Exploratory Analysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis)
 * **Detector de objetos (Object Detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/detector_ssd_mobilenet)
-* **Detector de faces humanas(Human face detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/blob/main/Deteccao_de_faces.ipynb)
+* **Detector de faces humanas (Human face detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/blob/main/Deteccao_de_faces.ipynb)
 * **Contador de vagas de estacionamento (Parking space counter)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Contador-Vagas-Estacionamento)
-
+* **Detecção de incêndio (Fire Detection using Machine Learning and Neural Networks)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/blob/main/deteccao-de-incendio/fire_detect.ipynb)
