@@ -1,5 +1,5 @@
 ## Detecção de incêndio usando aprendizado de máquina e redes neurais <br>
-###(Fire Detection using Machine Learning and Neural Networks)
+### (Fire Detection using Machine Learning and Neural Networks)
 
 Este projeto consiste na construção de um modelo de rede neural para classificar imagens de cenas de incêndio e não incêndio, com aplicações práticas em sistemas de detecção e prevenção de incêndio.
 
