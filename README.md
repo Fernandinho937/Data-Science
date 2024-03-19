@@ -26,3 +26,4 @@
 * **Detector de faces humanas (Human face detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/blob/main/Deteccao_de_faces.ipynb)
 * **Contador de vagas de estacionamento (Parking space counter)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Contador-Vagas-Estacionamento)
 * **Detecção de incêndio (Fire Detection using Machine Learning and Neural Networks)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/blob/main/deteccao-de-incendio/fire_detect.ipynb)
+* **Sistema de Recomendação de Filmes (Movie recommendation system)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Sistema-de-Recomendacao)
