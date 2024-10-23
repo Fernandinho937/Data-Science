@@ -22,6 +22,7 @@
 * **Dados geoespaciais (Geospatial Data)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/dados-geoespaciais)
 * **Análise de vendas (SalesAnalysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/salesanalysis-dash)
 * **Análise exploratória (Exploratory Analysis)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Exploratory-Analysis)
+*  **Departamento de Recursos Humanos** [Ver projeto](https://github.com/Fernandinho937/Data-Science-II/tree/main/Departamento-de-RH)
 * **Detector de objetos (Object Detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/detector_ssd_mobilenet)
 * **Detector de faces humanas (Human face detector)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/blob/main/Deteccao_de_faces.ipynb)
 * **Contador de vagas de estacionamento (Parking space counter)** [Ver projeto](https://github.com/Fernandinho937/Data-Science/tree/main/Contador-Vagas-Estacionamento)
