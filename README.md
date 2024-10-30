@@ -4,7 +4,7 @@
 [![python](https://img.shields.io/badge/python-3.12.0-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 
 <p align="center">
-  <img src="banner.png" >
+  <img src="banner 2.png" >
 </p>
 
 # 💻Fernandinho Rocha 
